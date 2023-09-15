@@ -8,7 +8,7 @@ import { BrowserRouter as Router, Routes, Route } from 'react-router-dom';
 
 const root = ReactDOM.createRoot(document.getElementById('root'));
 root.render(
-  <>
+ 
     <Router>
     <Routes> 
      <Route path='/' element={<Home />} />
@@ -17,6 +17,5 @@ root.render(
     </Routes>
 
     </Router>
-  </>
 );
 
